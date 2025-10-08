@@ -1162,6 +1162,7 @@ GameObject:
   - component: {fileID: 1996887694}
   - component: {fileID: 1996887693}
   - component: {fileID: 1996887696}
+  - component: {fileID: 1996887697}
   m_Layer: 0
   m_Name: Snowboarder Frog_0
   m_TagString: Untagged
@@ -1194,7 +1195,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &1996887694
 SpriteRenderer:
@@ -1306,6 +1307,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.31, y: -1.99}
   m_Size: {x: 3.27, y: 0.35}
   m_Direction: 1
+--- !u!114 &1996887697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996887691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec631e26833811c4f91e6ff517f206d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  torqueAmount: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
